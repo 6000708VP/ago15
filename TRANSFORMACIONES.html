@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script scr="mtr.js"></script> <!--Llamamos al js-->
+</head>
+<body>
+    <p>
+        <h1 size="30" >Translacion</h1>
+        <span>Vector Original </span>
+       
+        <input id="vo" size="20"> <!-- Vector original -->
+    </p>
+   
+    <p>
+        <span>Traslación en X</span>
+        <input id="trx" size="20"> <!-- Traslación en X -->
+    </p>
+
+    <p>
+        <span>Traslación en Y</span>
+        <input id="ty" size="20"> <!-- Traslación en Y -->
+    </p>
+
+    <p>
+        <span> Traslación en Z</span>
+        <input id="trz" size="20"> <!-- Traslación en Z -->
+    </p>
+    <p>
+        <span> Vector Resultante</span>
+        <input id="vr_tr" size="20"> <!-- Vector resultante (Traslación) -->
+    </p>
+    <button id="btn_tr" onclick="traslacion()">Realizar traslación</button>
+    <hr/>
+
+     <h1 size="30"> Escalado</h1>
+
+    <p>
+
+        <span>Vector Original</span> 
+        <input id="voe" size="20"> <!-- Vector original (Escalado) -->
+    </p>
+    <p>
+        <span>Escalado en X</span>
+        <input id="sx" size="20"> <!-- Escalado en X -->
+    </p>
+    <p>
+        <span>Escalado en y </span>
+        <input id="sy" size="20"> <!-- Escalado en Y -->
+    </p>
+    <p>
+        <span>Escalado en Z</span>
+        <input id="sz" size="20"> <!-- Escalado en Z -->
+    </p>
+    <p>
+        <span> Vector Resultante </span> 
+        <input id="vr_sc" size="20"> <!-- Vector resultante (Escalado) -->
+    </p>
+    <button id="btn_sc" onclick="escalado()">Realizar escalado</button>
+
+    <hr/>
+
+    <h1 size="30">Rotacion</h1>
+    <p>
+        <span> Vector Original </span> 
+        <input id="vor" size="20"> <!-- Vector original (Rotación) -->
+    </p>
+    <p>
+        <span>Ángulo de Rotación en X</span>
+        <input id="angleX" size="20"> <!-- Ángulo de Rotación en X -->
+    </p>
+    <p>
+        <span>Ángulo de Rotación en Y </span>
+        <input id="angleY" size="20"> <!-- Ángulo de Rotación en Y -->
+    </p>
+    <p>
+        <span>Ángulo de Rotación en Z </span>
+        <input id="angleZ" size="20"> <!-- Ángulo de Rotación en Z -->
+    </p>
+    <p>
+        <span>Vector Resultante</span>
+        <input id="vr_rot" size="20"> <!-- Vector resultante (Rotación) -->
+    </p>
+    <button id="btn_rot" onclick="rotacion()">Realizar rotación</button>
+</body>
+
+</html>
